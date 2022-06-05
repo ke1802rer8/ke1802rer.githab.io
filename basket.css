@@ -1,0 +1,253 @@
+.main {
+    padding: 10px 0px;
+    padding-right: 0px;
+    position: relative;
+  
+}
+.card-tab{
+    padding-top: 10px;
+    border-top: 1px solid #eeece8;
+}
+/*Стили отсека оформления заказа*/
+.cart {
+    font-size: 0;
+}
+.basket-bottom {
+    background: rgb(211, 229, 255);
+    position: relative;
+    padding: 35px 80px;
+    font-size: 16px;
+    margin: 24px 0;
+    text-align: center;
+    height: 65px;
+}
+.basket-total{
+    display: flex;
+}
+.basket-total_left{
+    width: 150px;
+    margin-right: 100px;
+}
+.basket-total_right{
+
+    font-weight: 700;
+}
+.basket-total_title{
+    font-weight: 700;
+    display: flex;
+}
+.sum_space{
+    padding-top: 5px;
+}
+.basket-total_title span {
+    font-size: 16px;
+}
+.basket-bottom__content {
+    display: inline-block;
+    text-align: left;
+}
+.basket-btn{
+    position: absolute;
+    top: 35px;
+    right: 80px;
+    display: block;
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #3AD8B2;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    border: none;
+    font-family: 'Adamina', serif;
+}
+/* Удалить все товары*/
+.delete-all-items {
+    font-size: 14px;
+    color: rgba(0,0,0,.55);
+    position: absolute;
+    line-height: 30px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.cart-nav{
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 30px;
+    font-size: 0;
+    
+}
+/*Ваша корзина пуста*/
+.cart-items__empty {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 150px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 16px;
+    color: gray;
+}
+.hidden{
+    display: none;
+}
+
+.cart-items__empty .text {
+    position: relative;
+    padding-left: 65px;
+    margin: 0;
+}
+.text {
+    font-size: 16px;
+    margin: 0 0 15px;
+}
+/*В корзине есть книга*/
+.basket-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #b3b3b3;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.basket-item:last-of-type {
+    border: none;
+}
+.basket-item {
+    position: relative;
+}
+.basket__wrapper{
+    position: relative;
+    display: flex;
+}
+
+.basket-item__image {
+    flex-basis: 140px;
+    transition: opacity .5s;
+}
+
+.basket-item_block {
+    flex-grow: 0;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.basket-item_info {
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0px 20px;
+    padding-right: 80px;
+}
+
+
+.basket-item__block {
+    flex-grow: 0;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.basket-item__name .basket-item__link {
+    color: #333;
+    text-decoration: none;
+}
+.basket-item__author {
+    color: rgba(0,0,0,.55);
+}
+/*Кол-во книг*/
+.basket-item__numbers {
+    flex-basis: 140px;
+    max-width: 140px;
+    
+}
+.basket-item__block {
+    flex-grow: 0;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.basket-item__counter {
+    padding-bottom: 16px;
+}
+.item-counter {
+    vertical-align: top;
+    display: flex;
+    width: 120px;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,.1);
+    overflow: hidden;
+}
+.item-counter__btn {
+    cursor: pointer;
+    width: 40px;
+    font-size: 34px;
+    line-height: 38px;
+    color: #7CAFFF;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.item-counter__btn:hover{
+    background-color: #7CAFFF;
+    color:#fff;
+}
+.item-counter__btn, .item-counter__value {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: #fff;
+    text-align: center;
+}
+.item-counter__value {
+    width: 40px;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 40px;
+    vertical-align: top;
+    color: #333;
+    border-width: 1px;
+    border-style: none solid;
+    border-color: rgba(0,0,0,.1);
+}
+.basket-item__price-total {
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+}
+.basket-item__price-composition {
+    color: rgba(0,0,0,.55);
+    font-size: 12px;
+    margin-top: 4px;
+}
+/*Удалить товар*/
+.basket-item__block {
+    flex-grow: 0;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.basket-item__controls {
+    flex-basis: 150px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.basket-item__control:hover, .basket-item__control_move[data-added] {
+    color: #7CAFFF;
+}
+.basket-item__control {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+    color: rgba(0,0,0,.55);
+}

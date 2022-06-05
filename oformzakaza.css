@@ -1,0 +1,388 @@
+.pageWrapper{
+    position: relative;
+}
+.navigation__back_for_oform{
+    color: rgb(77, 77, 77);
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    padding-left: 29px;
+    position: relative;
+    margin-right: 10px;
+    
+}
+.navigation__back_for_oform::before{
+    font-family: 'icomoon';
+    content: "\f104";
+    color: gray;
+    position: absolute;
+    left: 18px;
+    width: 24px;
+    height: 24px;
+    top: 1px;
+}
+.navigation__back_for_oform:hover{
+    color:  rgb(130, 179, 255);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.section--order{
+    border-top: 1px solid #eeece8;
+}
+.section_inner{
+    position: relative;
+}
+.grid--remove{
+    margin: 0 -40px;
+    display: flex;
+    flex-flow: wrap;
+}
+.column-1{
+    width: 75%;
+}
+.column-2{
+    width: 25%;
+}
+.order {
+    padding: 30px 11.13281% 0;
+}
+.formCategory:not(:first-child) {
+    margin-top: 61px;
+}
+.formCategory .formCategory--title {
+    position: relative;
+}
+.formCategory .formCategory--title+.formCategory--body {
+    margin-top: 35px;
+}
+.formCategory .formCategory--body {
+    margin-top: 45px;
+}
+.title-2.title--26 {
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 700;
+}
+.title-2{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: black;
+    font-family: 'Adamina', serif;
+}
+/*выбор доставки*/
+.selectorElement{
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+}
+.selectElementLabel {
+    width: 100%;
+    padding: 23px 40px 23px 80px;
+    position: relative;
+}
+.selectElementLabel__border {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #eeece8;
+    cursor: pointer;
+    z-index: 5;
+}
+.selectElementLabel input:checked~.selectElementLabel__border, .selectElementLabel.is-active>.selectElementLabel__border {
+    border: 1px solid #dbd8d0;
+}
+.selectElementLabel__title {
+    display: block;
+    color: #3b3b38;
+    font-size: 16px;
+}
+.text--xs {
+    font-size: 13px;
+    line-height: 15px;
+    display: block;
+}
+.gray{
+    color: rgba(59,59,56,.5);
+}
+.selectElementLabel__radio {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px solid #eeece8;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*отдел города*/
+.grid.grid--formFields {
+    margin: -16px -20px;
+}
+.grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+
+.columnDesktop--12 {
+    width: 100%;
+}
+.form__field {
+    position: relative;
+}
+.v-select {
+    position: relative;
+    font-family: inherit;
+}
+.v-select, .v-select * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form__field .v-select .vs__dropdown-toggle {
+    min-height: 50px;
+    height: 50px;
+    font-size: 14px;
+    border: 1px solid #d8d8d7;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+.vs--searchable .vs__dropdown-toggle {
+    cursor: text;
+}
+.vs__actions, .vs__dropdown-toggle, .vs__selected-options {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.vs__dropdown-toggle {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0 0 4px;
+    background: 0 0;
+    border: 1px solid rgba(60,60,60,.26);
+    border-radius: 4px;
+    white-space: normal;
+}
+.vs__dropdown-toggle {
+    border: 1px solid #d8d8d7;
+}
+.grid__dan{
+    border-top: none!important;
+    border-left: none!important;
+    border-right: none!important;
+}
+.formCategory .formCategory__subtitle {
+    max-width: 71.51819%;
+    margin-top: 25px;
+}
+.text.text--sm {
+    font-size: 14px;
+    line-height: 25px;
+}
+.formFields-item{
+    padding: 16px 20px;
+}
+.column-3{
+    width: 40%;
+}
+.form_field {
+    position: relative;
+}
+.label {
+    margin-bottom: 13px;
+    font-size: 16px;
+}
+.form_input{
+    position: relative;
+}
+.form_input .input {
+    padding-right: 50px;
+}
+.input:not(.input--reset) {
+    border: 1px solid #d8d8d7;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 14px;
+    width: 100%;
+    height: 30px;
+    padding: 10px 20px;
+}
+.input {
+    width: 100%;
+}
+.input:hover{
+    border: 1px solid #7CAFFF;
+}
+.input:focus{
+    border: 1px solid #7CAFFF;
+    box-shadow: 0 0 5px 0 #7CAFFF;
+    outline: 0;
+    -webkit-transition: .3s;
+    transition:.3s
+}
+select.vs__search {
+    width: 100%;
+    height: 35px;
+    position: relative;
+}
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .selectElementLabel-wrap {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+}
+.selectElementLabel_payment {
+    width: 50%;
+}
+.textarea {
+    border: 1px solid #d8d8d7;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 100px;
+    width: 100%;
+    padding-top: 16px;
+    padding-left: 18px;
+    font-size: 14px;
+}
+
+.form__field .input_review{
+    padding-top: 16px;
+    padding-left: 18px;
+    border: 1px solid #d8d8d7;
+    font-family: 'Alice', serif;
+}
+.input_review:hover{
+    border: 1px solid #7CAFFF;
+}
+.textLeft {
+    text-align: left!important;
+}
+.order .form__bottom {
+    margin: 36px 0;
+}
+.btn--primary {
+    min-width: 140px;
+    height: 50px;
+    background-color: #7CAFFF;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0 30px;
+}
+.btn--primary:hover{
+    background-color: #92bafa;
+}
+.btn--primary:active{
+    background-color: #ffe1a1;
+}
+/**/
+.cartBox{
+    margin: 0;
+    border-left: 1px solid #eeece8;
+    background: rgba(38,169,224,.1);
+    margin-top: 30px;
+}
+.cartBox .cartBox_inner {
+    padding: 17px 40px;
+}
+.cartBox-title20{
+    display: flex;
+    align-items: center;
+    text-transform: initial;
+    letter-spacing: 0;
+    font-size: 20px;
+    font-family: 'Alice', serif;
+    font-weight: 700;
+    line-height: 40px;
+}
+.cartBoxList {
+    margin-top: 27px;
+}
+.cartBox__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.cartBoxList_right{
+    font-size: 14px;
+    line-height: 25px;
+}
+.price_ruble:after {
+    content: ' ₽';
+}
+.container .cartBoxList li{
+    display: flex;
+}
+.price.price--sm {
+    font-size: 18px;
+    line-height: 1;
+}
+.paddingCart{
+    padding-top: 20px;
+}
+
+.columnDesktop--12{
+    padding: 16px 20px;
+    width: 100%;
+}
+.vs__search{
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    border: 1px solid #d8d8d7;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0px 10px; 
+}
+
+@media (max-width: 400px){
+    .order{
+        padding: 0px;
+    }
+   .formCategory .formCategory--body{
+        margin-top: 0px;
+   }
+   .cartBox-title20{
+       font-size: 10px;
+   }
+   .cartBox-title20{
+       margin-top: 0px;
+   }
+   .text.text--sm{
+    font-size: 8px;
+    line-height: 10px;
+   }
+}

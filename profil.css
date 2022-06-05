@@ -1,0 +1,88 @@
+.chg-icon-users::before{
+    content: "\f007";
+    font-family: 'icomoon';
+    color: rgb(130, 179, 255);
+    font-size: 25px;
+    text-align: center;
+    flex-direction: column;
+    font-style: normal;
+}
+.user-info {
+    margin-bottom: 30px;
+    font-size: 0;
+    display: inline-grid;
+}
+.input-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+}
+.user-info .input__label {
+    width: 115px;
+}
+.input__label {
+    display: inline-block;
+    width: 90px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.input__validation-icon {
+    display: inline-block;
+    position: relative;
+}
+.input-wrap .input_user {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 35px;
+    padding: 0 10px;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 35px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.input_user:hover{
+    border: 1px solid #7CAFFF;
+}
+.input_user:focus{
+    border: 1px solid #7CAFFF;
+    box-shadow: 0 0 5px 0 #7CAFFF;
+    outline: 0;
+    -webkit-transition: .3s;
+    transition:.3s
+}
+.short-personal__fio{
+    font-family: 'Alice', serif;
+    font-size: 15px;
+    padding: 14px 0px;
+}
+.container-for__user {
+    font-size: 15px;
+    align-items: center;
+    font-family: 'Alice', serif;
+    position: relative;
+    display: flex;
+    padding-bottom: 29px;
+}
+.short-personal__contact:not(:first-child){
+    padding-left: 79px;
+}
+.short__label{
+    color: gray;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.user_short{
+    font-size: 20px;
+    color: #7CAFFF;
+    font-weight: 700;
+    padding-bottom: 14px;
+}

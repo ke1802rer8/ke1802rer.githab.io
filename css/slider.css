@@ -1,0 +1,77 @@
+/*.Слайдер.*/
+.slick-slider{
+
+}
+/*.Ограничивающая-оболочка.*/
+.slick-list{
+	overflow: hidden;
+}
+/*.Лента слайдов.*/
+.slick-track{
+	display: flex;
+}
+/*.Слайд.*/
+.slick-slide{
+
+}
+
+/*.Слайд активный.*/
+.slick-slide.slick-active{
+
+}
+/*.Слайд основной.*/
+.slick-slide.slick-current{
+
+}
+/*.Слайд по центру.*/
+.slick-slide.slick-center{
+
+}
+/*.Стрелка.*/
+.slick-arrow{
+
+}
+/*.Стрелка.влево.*/
+.slick-arrow.slick-prev{
+
+}
+/*.Стрелка.вправо.*/
+.slick-arrow.slick-next{
+
+}
+/*.Стрелка.не активная.*/
+.slick-arrow.slick-disabled{
+
+}
+/*.Точки.*/
+.slick-dots{
+
+}
+.slick-dots.li{
+
+}
+.slick-dots.button{
+	
+}
+/*.Конкретный.слайдер.*/
+.section--catalog{
+	position: relative;
+}
+.section--catalog.slick-arrow{
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	font-size: 0;
+	width: 30px;
+	height: 50px;
+}
+.section--catalog.slick-arrow.slick-prev{
+	left: 0;
+	background: url('../img/vlevo.png') 0 0/ 100% no-repeat;
+}
+.section--catalog.slick-arrow.slick-next{
+	right: 0;
+}
+.grid__items{
+
+}

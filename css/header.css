@@ -1,0 +1,152 @@
+.header__column:not(:first-child){
+    border-left: 1px solid rgb(130, 179, 255);
+}
+
+.header__search{
+    width: 50%;
+}
+.header__BB{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.search__area{
+    height: 100%;
+    position: relative;
+}
+.header__form--search{
+    position: relative;
+    height: 100%;
+}
+
+.search__input{
+    background-color: transparent;
+    border: 0;
+    font-size: 17px;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    padding-left: 96px;
+}
+
+input{
+    overflow: visible;
+}
+
+.btn--search {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:  rgb(130, 179, 255);
+    border-radius: 50%;
+    bottom: 0;
+    /* display: inline-block; */
+    vertical-align: var();
+    /* height: 50%; */
+    height: 50px;
+    top: 26%;
+    /* align-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    width: 52px;
+    /* max-width: 100%; */
+    z-index: 1;
+    margin: 0 25px;
+ }
+
+ .header__controls{
+     width: 30%;
+ }
+
+ .headerControls{
+    width: 100%;
+    display: flex;
+ }
+ .headerControls__item{
+    position: relative;
+    padding: 10px 0;
+ }
+ .headerControls__item:not(:first-child) {
+    border-left: 1px solid rgb(130, 179, 255);
+}
+.headerControls__color{
+    background-color: rgb(130, 179, 255);
+}
+.headerControls__color:hover{
+    background-color: inherit;
+}
+.headerControls__color:hover .btn--title{
+    color: rgb(130, 179, 255);
+}
+.btn--main{
+    display: flex;
+    flex-direction: column;
+    height: 63px;
+    min-width: 99px;
+    padding: 0 39px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.btn--user{
+    background-color: rgb(130, 179, 255);
+    border-radius: 50px;
+    padding: 5px 18px;
+    margin: 10px 25px;
+    max-height: 36px;
+    border: 2px solid white;
+    
+}
+.btn--user:hover {
+    
+    background-color: inherit;
+    border: 2px solid rgb(130, 179, 255);
+    
+}
+.btn--user:hover .text--xs{
+    
+    color: rgb(130, 179, 255);
+    
+}
+.btn__container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+ }
+.btn--title{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+
+}
+
+ .price::after{
+    content: ' ₽';
+ }
+
+ .btn--card:hover .btn--title{
+    color: blue;
+ }
+
+ .btn-auth__text{
+     color: white;
+     font-size: 17px;
+ }
+
+ .btn--svg {
+    position: relative;
+}
+.card-btn{
+    width: 20px;
+    height: 18px;
+}
+
+.fa-shopping-cart{
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+}

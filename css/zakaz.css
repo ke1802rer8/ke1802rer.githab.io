@@ -1,0 +1,202 @@
+
+.main_users{
+    margin-top: 20px;
+}
+.container-user_leftside{
+    margin-right: 20px;
+    display: inline-block;
+    width: 220px;
+    vertical-align: top;
+}
+.account-menu__text-link:hover{
+    color: black;
+    font-weight: 700;
+}
+.account-menu {
+    background: rgba(38,169,224,.1);
+    padding: 20px;
+    list-style-type: none;
+    margin: 0 0 40px;
+}
+.account-menu__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.account-menu__list-item{
+    text-decoration: none;
+    font-size: 19px;
+    padding: 5px 0;
+}
+.account-menu__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 24px;
+    color: rgb(75, 74, 74);
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: -54px;
+}
+.account-menu__ico {
+    font-size: 24px;
+
+    padding-right: 5px;
+    vertical-align: middle;
+}
+.account-menu__ico::before{
+    font-size: 24px;
+    color: #ccc;
+    fill: #ccc;
+    vertical-align: middle;
+ }
+ .account-menu__text-link {
+    display: inline-block;
+    font-size: 16px;
+    
+}
+.chg-icon-person:before {
+    content: "\f007";
+    font-family: 'icomoon';
+    color: rgb(130, 179, 255);
+    font-size: 18px;
+    text-align: center;
+    flex-direction: column;
+    font-style: normal;
+}
+.chg-icon-zakaz:before {
+    content: "\f07a";
+    font-family: 'icomoon';
+    font-size: 18px;
+    color: rgb(130, 179, 255);
+    text-align: center;
+    flex-direction: column;
+    font-style: normal;
+}
+
+.chg-icon-exit:before {
+    content: "\f017";
+    font-family: 'icomoon';
+    color: rgb(130, 179, 255);
+    font-size: 18px;
+    text-align: center;
+    flex-direction: column;
+    font-style: normal;
+}
+.account-menu__list-item .account-menu_active{
+    color: black;
+    font-weight: 700;
+}
+/*Заказы*/
+.content_full-w {
+    width: calc(100% - 240px);
+    width: -webkit-calc(100% - 240px);
+    display: inline-block;
+    width: 100%;
+}
+.content {
+    display: inline-block;
+    width: 700px;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: calc(100% - 240px);
+    width: -webkit-calc(100% - 240px);
+}
+.flex-align-center {
+    align-items: center;
+    color: #7CAFFF;
+    font-family: 'Alice', serif;
+}
+.flex, [class^="flex-"] {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    display: flex;
+    font-size: 25px;
+}
+h1 i {
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 25px;
+    
+}
+.heading__text {
+    vertical-align: middle;
+}
+
+.chg-icon-cart::before{
+    content: "\f07a";
+    font-family: 'icomoon';
+    color: rgb(130, 179, 255);
+    font-size: 25px;
+    text-align: center;
+    flex-direction: column;
+    font-style: normal;
+}
+.info-orders {
+    position: relative;
+    table-layout: auto;
+    width: 100%;
+    font-size: 14px;
+    border: none;
+    border-spacing: 0;
+    font-family: 'Alice', serif;
+    border-collapse: collapse;
+}
+.info-orders td {
+    height: 80px;
+}
+.info-orders th:first-child {
+    padding-left: 10px;
+}
+.info-orders th {
+    text-align: left;
+    white-space: nowrap;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #b3b3b3;
+}
+.info-orders  th {
+    color: gray;
+    font-size: 12px;
+    font-weight: 400;
+}
+.info-orders__order {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #7CAFFF;
+    cursor: pointer;
+}
+.info-orders__items {
+    margin-bottom: 7px;
+}
+.info-orders__pay-type {
+    padding-bottom: 15px;
+}
+@media (max-width: 500px){
+    .info-orders__order{
+        font-size: 10px;
+    }
+    .info-orders {
+        
+        font-size: 10px;
+        
+    }
+    .flex, [class^="flex-"] {
+        
+        font-size: 15px;
+    }
+    .account-menu {
+        
+        padding: 10px;
+      
+        margin: 0 0 20px;
+    }
+}
